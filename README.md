@@ -7,3 +7,24 @@ Forutsetningene er valgt ut i fra de mest brukte teknologier nevnt i ([The State
 - Versjonshåndtering ([GitHub](https://www.github.com))
 - Utviklingsrammeverk ([React Native](https://facebook.github.io/react-native))
 - Testing ([Jest](https://jestjs.io))
+- UI-komponenter ([Storybook](https://storybook.js.org))
+
+## Installasjon
+Alle steg i utviklingsprosessen skal dokumenteres, dette gjelder også installasjon av de tekniske forutsetningene.
+
+### Generelle forutsetninger
+- ([Node](https://nodejs.org)) (>=10.0.0)
+
+### React Native
+Command Line Inteface/CLI ([Expo](https://expo.io))
+```
+npm install -g expo-cli
+```
+
+Opprett nytt prosjekt
+```
+expo init Lagleder
+
+cd Lagleder
+npm start # you can also use: expo start
+```
