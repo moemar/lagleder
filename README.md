@@ -40,3 +40,9 @@ git remote -v
 git pull origin master --allow-unrelated-histories
 git push origin master
 ```
+
+### Jest
+```
+npm install --save-dev jest
+npm install --save-dev react-test-renderer
+```
